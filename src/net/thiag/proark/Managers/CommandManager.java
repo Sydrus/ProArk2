@@ -2,6 +2,7 @@ package net.thiag.proark.Managers;
 
 import net.thiag.proark.Commands.ForNow;
 import net.thiag.proark.Commands.Game;
+import net.thiag.proark.Commands.Ping;
 import net.thiag.proark.Constructors.DiscordCommand;
 
 import java.util.ArrayList;
@@ -17,6 +18,7 @@ public class CommandManager {
     public CommandManager() {
         _Commands.add(new ForNow());
         _Commands.add(new Game());
+        _Commands.add(new Ping());
     }
 
     public List<DiscordCommand> getCommands() {

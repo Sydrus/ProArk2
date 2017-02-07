@@ -39,7 +39,7 @@ public class ForNow extends DiscordCommand {
     @Override
     public void onCommand(User _Sender, Message _Message, Guild _Guild, TextChannel _Chat, Boolean _isEdited, String[] args) {
 
-        _Chat.sendMessage(sender(_Sender) + "```css\n" + "#Status\n\n" + "Uptime: " + getUptime() + "\n\n" + "Plugins:\n" + "[In Development]\n\n" + "DataBase:\n" + " MySQL\n" + "```");
+        _Chat.sendMessage( "```css\n" + "#Status\n\n" + "Uptime: " + getUptime() + "\n\n" + "Plugins:\n" + "[In Development]\n\n" + "DataBase:\n" + " MySQL\n" + "```");
     }
 
 
