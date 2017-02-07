@@ -6,6 +6,9 @@ import net.dv8tion.jda.hooks.ListenerAdapter;
 import net.thiag.proark.Constructors.DiscordCommand;
 import net.thiag.proark.ProArk;
 
+/**
+ * Created by thiag.
+ */
 public class MainDiscordListener extends ListenerAdapter {
 
     @Override
